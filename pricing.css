@@ -34,3 +34,38 @@ html {
 .navbar {
   padding: .1rem 1rem;
 }
+
+.jumbotron {
+  padding: 0.5rem 0.5rem;
+  margin-bottom: 1rem;
+  background-color: rgba(0,0,0,.03);
+  border-radius: .3rem;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #f17140;
+  border-color: #f17140;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:visited, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: #ee5a1f !important;
+  border-color: #ee5a1f !important;
+}
+
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+
+.featurette-heading {
+  margin-top: 5rem;
+}
