@@ -1,0 +1,36 @@
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.container {
+  max-width: 960px;
+}
+
+.pricing-header {
+  max-width: 700px;
+}
+
+.card-deck .card {
+  min-width: 220px;
+}
+
+.navbar-custom .nav-item.active .nav-link{
+    color: #f17140; 
+}
+.navbar-custom .nav-item:hover .nav-link {
+  color: #f17140; 
+}
+
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+  color: #000000; 
+}
+
+.navbar {
+  padding: .1rem 1rem;
+}
