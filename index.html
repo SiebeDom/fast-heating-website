@@ -4,106 +4,71 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-  <meta name="generator" content="Jekyll v3.8.6">
+  <meta name="description" content="Website van bedrijf Fast Heating">
+  <meta name="author" content="Siebe Dom">
   <title>Fast heating</title>
 
-  <!-- Bootstrap core CSS -->
   <link href="bootstrap-4.4.1-dist/css/bootstrap.min.css" rel="stylesheet">
-
-  <style>
-    .bd-placeholder-img {
-      font-size: 1.125rem;
-      text-anchor: middle;
-      -webkit-user-select: none;
-      -moz-user-select: none;
-      -ms-user-select: none;
-      user-select: none;
-    }
-
-    @media (min-width: 768px) {
-      .bd-placeholder-img-lg {
-        font-size: 3.5rem;
-      }
-    }
-  </style>
-  <!-- Custom styles for this template -->
-  <link href="pricing.css" rel="stylesheet">
+  <link href="fast-heating.css" rel="stylesheet">
 </head>
 
 <body>
-  <div class="d-flex flex-column flex-md-row align-items-center p-1 px-md-1 mb-1 bg-white">
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <img class="d-block mx-auto mb-1" src="header.jpg" alt="">
-        </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          <nav class="navbar navbar-custom navbar-expand-lg navbar-dark rounded-lg"
-            style="background-color: rgba(0,0,0,.03);">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample08"
-              aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
-              <ul class="navbar-nav">
-                <li class="nav-item active">
-                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="specialisaties.html">Specialisaties</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-              </ul>
-            </div>
-          </nav>
-        </div>
-      </div>
-      <hr style="background-color: #fec506;" />
-    </div>
-  </div>
-
   <div class="container">
-    <section class="jumbotron text-center">
-      <div class="container">
-        <h2>Fast Heating</h2>
-        <p class="lead text-muted">Specialist in plaatsing en onderhoud van verwarmingssystemen, condensatieketels en warmptempompen.</p>
-        <p>
-          <a href="specialisaties.html" class="btn btn-primary my-2 ">Info specialisaties</a>
-          <a href="contact.html" class="btn btn-primary my-2">Contact offerte</a>
-        </p>
+    <!-- Image header -->
+    <div class="my-1">
+      <a href="index.html">
+        <img class="d-block mx-auto" src="header.jpg">
+      </a>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-expand-lg rounded-lg">
+      <div class="navbar-collapse justify-content-md-center">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="specialisaties.html">Specialisaties</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
       </div>
+    </nav>
+
+    <hr class="rule" />
+
+    <!-- Company info -->
+    <section class="jumbotron text-center">
+      <h2>Fast Heating</h2>
+      <p class="lead text-muted">Specialist in plaatsing en onderhoud van verwarmingssystemen, condensatieketels en
+        warmptempompen.</p>
     </section>
 
-    <hr style="background-color: #fec506;" />
+    <hr class="rule" />
 
+    <!-- Partners -->
     <div class="row">
       <div class="col-md-7">
-        <h2 >Viessmann. <span class="text-muted">Officieel verdeler.</span></h2>
-        <p class="lead">Fast heating is officieel verdeler en erkend installateur van Viessmann producten. <br/>
-          Meer weten over Viessmann <a target="_blank" href="http://www.viessmann.be" style="color: #f17140;">klik hier.</a>
+        <h2>Viessmann. <span class="text-muted">Officieel verdeler.</span></h2>
+        <p class="lead">Fast heating is officieel verdeler en erkend installateur van Viessmann producten. <br />
+          Meer weten over Viessmann <a target="_blank" href="http://www.viessmann.be" style="color: #f17140;">klik
+            hier.</a>
         </p>
       </div>
       <div class="col-md-5">
-        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
-          height="250" src="viessmann2.png" alt="">
+        <img class="img-fluid" src="viessmann2.png">
       </div>
     </div>
-  </div>
 
-  <div class="container">
-    <hr style="background-color: #fec506;" />
-    <footer class="footer mt-auto">
-      <div class="container">
-        <span class="text-muted">© 2020 Fast heating BVBA - 089.704.770</span>
-      </div>
-    </footer>
+    <hr class="rule" />
+
+    <!-- Footer -->
+    <div class="my-3">
+      <span class="text-muted">© 2020 Fast heating BVBA - 089.704.770</span>
+    </div>
   </div>
 </body>
 
