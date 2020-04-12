@@ -1,0 +1,30 @@
+{
+  "name": "fast-heating-website",
+  "version": "1.0.0",
+  "description": "Website for Fast Heating website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SiebeDom/fast-heating-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SiebeDom/fast-heating-website/issues"
+  },
+  "homepage": "https://github.com/SiebeDom/fast-heating-website#readme",
+  "devDependencies": {
+    "browser-sync": "2.26.7",
+    "gulp": "4.0.2",
+    "gulp-sass": "4.0.2"
+  },
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "jquery": "3.5.0",
+    "popper.js": "1.16.1"
+  }
+}
