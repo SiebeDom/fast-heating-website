@@ -7172,3 +7172,6 @@ a.text-dark:hover, a.text-dark:focus {
 .carousel-caption {
   bottom: 0px;
   padding-bottom: 0px; }
+
+footer a {
+  color: #6c757d; }
