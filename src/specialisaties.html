@@ -16,18 +16,22 @@
     <!-- Image header -->
     <div class="my-1">
       <a href="index.html">
-        <img class="d-block mx-auto" src="assets/header.jpg">
+        <img class="img-fluid d-block mx-auto" src="assets/header.jpg">
       </a>
     </div>
 
     <!-- Navigation -->
+    <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark rounded-lg">
-      <div class="navbar-collapse justify-content-md-center">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-md-center" id="navbar">
         <ul class="navbar-nav">
-          <li class="nav-item">
+          <li class="nav-item active">
             <a class="nav-link" href="index.html">Home</a>
           </li>
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="specialisaties.html">Specialisaties</a>
           </li>
           <li class="nav-item">
@@ -51,7 +55,7 @@
         <div class="row">
           <div class="col-md-4">
             <div class="card mb-4 shadow-sm">
-              <img src="assets/vloerverwarming.webp" width="100%" height="225" />
+              <img class="img-fluid" src="assets/vloerverwarming.webp" width="100%" height="225" />
               <div class="card-body">
                 <p class="card-text">Plaatsing van <strong>vloerverwarming</strong>.</p>
               </div>
@@ -59,7 +63,7 @@
           </div>
           <div class="col-md-4">
             <div class="card mb-4 shadow-sm">
-              <img src="assets/condensatieKetel.webp" width="100%" height="225" />
+              <img  class="img-fluid" src="assets/condensatieKetel.webp" width="100%" height="225" />
               <div class="card-body">
                 <p class="card-text">Plaatsing en onderhoud <strong>condenensatieketels</strong>.</p>
                 <p class="card-text">Klik <a target="_blank"
@@ -70,7 +74,7 @@
           </div>
           <div class="col-md-4">
             <div class="card mb-4 shadow-sm">
-              <img src="assets/warmptepomp.webp" width="100%" height="225" />
+              <img class="img-fluid" src="assets/warmptepomp.webp" width="100%" height="225" />
               <div class="card-body">
                 <p class="card-text">Plaatsing <strong>warmtepompen</strong></br>Verwarmen en koelen</br>Warmtepompboiler
               </div>
@@ -82,7 +86,7 @@
 
     <hr />
 
-    <div class="container featurette">
+    <div class="container">
       <div class="row">
         <div class="col-md-7 order-md-2">
           <h3>Sanitair</h3>
@@ -90,7 +94,7 @@
           <p class="lead">Badkamers.</p>
         </div>
         <div class="col-md-5 order-md-1">
-          <img src="assets/sanitair.PNG" class="img-fluid" width="500" height="500" />
+          <img src="assets/sanitair.PNG" class="img-fluid" />
         </div>
       </div>
 
@@ -102,7 +106,7 @@
           <p class="lead">Badkamers en herstellingswerken.</p>
         </div>
         <div class="col-md-5">
-          <img src="assets/loodgieter.jpg" class="img-fluid" width="500" height="500" />
+          <img src="assets/loodgieter.jpg" class="img-fluid"/>
         </div>
       </div>
     </div>
@@ -115,6 +119,10 @@
           href="https://kbopub.economie.fgov.be/kbopub/toonondernemingps.html?ondernemingsnummer=869704770">BE869.704.770</a></span>
     </footer>
   </div>
+
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/popper.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
 </body>
 
 </html>

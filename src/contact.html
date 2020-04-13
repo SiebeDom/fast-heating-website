@@ -16,15 +16,19 @@
     <!-- Image header -->
     <div class="my-1">
       <a href="index.html">
-        <img class="d-block mx-auto" src="assets/header.jpg">
+        <img class="img-fluid d-block mx-auto" src="assets/header.jpg">
       </a>
     </div>
 
     <!-- Navigation -->
+    <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark rounded-lg">
-      <div class="navbar-collapse justify-content-md-center">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-md-center" id="navbar">
         <ul class="navbar-nav">
-          <li class="nav-item">
+          <li class="nav-item active">
             <a class="nav-link" href="index.html">Home</a>
           </li>
           <li class="nav-item">
@@ -36,7 +40,7 @@
           <li class="nav-item">
             <a class="nav-link" href="premies.html">Premies</a>
           </li>
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="contact.html">Contact</a>
           </li>
         </ul>
@@ -57,18 +61,18 @@
               Contacteer ons op één van onderstaande manieren voor een vrijblijvende offerte.
             </p>
             <strong>Zaakavoerder: Dom Danny</strong><br />
-            Tel: 0477 70 60 40<br />
+            Tel: <a href="tel:0477 70 60 40"></a><br />
             Email: <a href="mailto:fastheating@skynet.be">fastheating@skynet.be</a><br />
             <span class="align-middle">Social media: <a target="_blank"
                 href="https://www.facebook.com/fastheating.dannydom.5">
-                <img src="assets/facebook40x40.png" alt="facebook" style="width:25px;height:25px;border:0;">
+                <img class="img-fluid" src="assets/facebook40x40.png" alt="facebook" style="width:25px;height:25px;border:0;">
               </a>
             </span>
             <br/>
             <br/>
             <p>
               <a target="_blank" href="http://www.cerga.be/nl/over-cerga">
-                <img src="assets/cerga_NL_btn.gif"/>
+                <img class="img-fluid" src="assets/cerga_NL_btn.gif"/>
               </a>
             </p>
           </p>
@@ -101,6 +105,10 @@
           href="https://kbopub.economie.fgov.be/kbopub/toonondernemingps.html?ondernemingsnummer=869704770">BE869.704.770</a></span>
     </footer>
   </div>
+
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/popper.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
 </body>
 
 </html>
