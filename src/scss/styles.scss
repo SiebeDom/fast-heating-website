@@ -1,0 +1,70 @@
+// Variable Overrides that will be used by bootstrap CSS
+$theme-colors: (
+  "primary": #f17140,
+  "secondary": #fec506,
+);
+
+$navbar-dark-color: var(--gray-dark);
+$navbar-dark-hover-color: var(--primary);
+$navbar-dark-active-color: var(--primary);
+
+$navbar-padding-y: 0.5rem;
+
+$hr-border-color: var(--secondary);
+$hr-margin-y: 0.75rem;
+
+$jumbotron-padding:                 0.25rem;
+$jumbotron-color:                   null;
+$jumbotron-bg:                      var(--gray-100);
+
+//TODO: Don't know how to set carousel-control-color dynamically
+$carousel-control-color:             #f17140;
+$carousel-indicator-active-bg:       var(--primary);
+$carousel-caption-color:             var(--gray-900);
+
+@import "node_modules/bootstrap/scss/bootstrap";
+
+//OVERRIDE Bootstrap
+
+.navbar {
+  background-color: gray("100");
+}
+
+.container {
+  max-width: 960px;
+}
+
+/** Info area **/
+.jumbotron {
+  background-color: gray("100");
+}
+
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+.marketing .col-lg-4 p {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+}
+
+.featurette .row {
+  height: 12em;
+  margin-top: 2rem;
+}
+
+.carousel-item {
+  height: 375px;
+}
+
+.carousel-indicators {
+  bottom: -20px;
+}
+
+.carousel-caption {
+  bottom: 0px;
+  padding-bottom: 0px;
+}
