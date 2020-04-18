@@ -4,7 +4,8 @@ $theme-colors: (
   "secondary": #fec506,
 );
 
-$navbar-dark-color: var(--gray-dark);
+$navbar-dark-toggler-border-color:#343a40;
+$navbar-dark-color: #343a40;
 $navbar-dark-hover-color: var(--primary);
 $navbar-dark-active-color: var(--primary);
 

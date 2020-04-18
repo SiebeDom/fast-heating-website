@@ -7,7 +7,9 @@
     "type": "git",
     "url": "git+https://github.com/SiebeDom/fast-heating-website.git"
   },
-  "keywords": ["Fast heating"],
+  "keywords": [
+    "Fast heating"
+  ],
   "author": "Siebe Dom",
   "license": "ISC",
   "bugs": {
@@ -21,7 +23,7 @@
   },
   "dependencies": {
     "bootstrap": "4.4.1",
-    "jquery": "3.5.0",
+    "jquery": "3.4.1",
     "popper.js": "1.16.1"
   }
 }
