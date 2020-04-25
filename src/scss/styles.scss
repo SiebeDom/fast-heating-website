@@ -1,7 +1,7 @@
 // Variable Overrides that will be used by bootstrap CSS
 $theme-colors: (
-  "primary": #f17140,
-  "secondary": #fec506,
+  "primary": #ff6634,
+  "secondary": #ffc20f,
 );
 
 $navbar-dark-toggler-border-color:#343a40;
@@ -19,7 +19,7 @@ $jumbotron-color:                   null;
 $jumbotron-bg:                      var(--gray-100);
 
 //TODO: Don't know how to set carousel-control-color dynamically
-$carousel-control-color:             #f17140;
+$carousel-control-color:             #ff6634;
 $carousel-indicator-active-bg:       var(--primary);
 $carousel-caption-color:             var(--gray-900);
 
