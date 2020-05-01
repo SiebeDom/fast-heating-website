@@ -23,6 +23,11 @@ $carousel-control-color:             #ff6634;
 $carousel-indicator-active-bg:       var(--primary);
 $carousel-caption-color:             var(--gray-900);
 
+$modal-header-padding-y:            .5rem;
+$modal-header-padding-x:            .5rem;
+
+$modal-inner-padding:               .5rem;
+
 @import "node_modules/bootstrap/scss/bootstrap";
 
 //OVERRIDE Bootstrap

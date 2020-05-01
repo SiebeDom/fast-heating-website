@@ -4198,13 +4198,13 @@ a.close.disabled {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  padding: 1rem 1rem;
+  padding: 0.5rem 0.5rem;
   border-bottom: 1px solid #dee2e6;
   border-top-left-radius: calc(0.3rem - 1px);
   border-top-right-radius: calc(0.3rem - 1px); }
   .modal-header .close {
-    padding: 1rem 1rem;
-    margin: -1rem -1rem -1rem auto; }
+    padding: 0.5rem 0.5rem;
+    margin: -0.5rem -0.5rem -0.5rem auto; }
 
 .modal-title {
   margin-bottom: 0;
@@ -4213,14 +4213,14 @@ a.close.disabled {
 .modal-body {
   position: relative;
   flex: 1 1 auto;
-  padding: 1rem; }
+  padding: 0.5rem; }
 
 .modal-footer {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: flex-end;
-  padding: 0.75rem;
+  padding: 0.25rem;
   border-top: 1px solid #dee2e6;
   border-bottom-right-radius: calc(0.3rem - 1px);
   border-bottom-left-radius: calc(0.3rem - 1px); }
