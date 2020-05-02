@@ -32,6 +32,10 @@ $modal-inner-padding:               .5rem;
 
 //OVERRIDE Bootstrap
 
+html {
+  overflow-y: scroll; 
+}
+
 .navbar {
   background-color: gray("100");
 }
