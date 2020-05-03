@@ -3666,13 +3666,13 @@ input[type="button"].btn-block {
     box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5); }
 
 .jumbotron {
-  padding: 0.25rem 0.125rem;
-  margin-bottom: 0.25rem;
-  background-color: var(--gray-100);
+  padding: 0.5rem 0.25rem;
+  margin-bottom: 0.5rem;
+  background-color: #e9ecef;
   border-radius: 0.3rem; }
   @media (min-width: 576px) {
     .jumbotron {
-      padding: 0.5rem 0.25rem; } }
+      padding: 1rem 0.5rem; } }
 
 .jumbotron-fluid {
   padding-right: 0;
@@ -7147,7 +7147,6 @@ html {
 .container {
   max-width: 960px; }
 
-/** Info area **/
 .jumbotron {
   background-color: #f8f9fa; }
 
