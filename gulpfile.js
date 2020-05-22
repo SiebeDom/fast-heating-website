@@ -17,6 +17,38 @@ gulp.task('js', function() {
         .pipe(browserSync.stream());
 });
 
+// Move the css files into the /src/css folder
+gulp.task('css', function() {
+    return gulp.src(['node_modules/@fortawesome/fontawesome-free/css/all.css',
+    
+])
+        .pipe(gulp.dest("src/css"))
+        .pipe(browserSync.stream());
+});
+
+// Move the webfonts files into the /src/webfonts folder
+gulp.task('webfonts', function() {
+    return gulp.src([
+        'node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.eot',
+        'node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.svg',
+        'node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.ttf',
+        'node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.woff',
+        'node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.woff2',
+        'node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.eot',
+        'node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.svg',
+        'node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.ttf',
+        'node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.woff',
+        'node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.woff2',
+        'node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.eot',
+        'node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.svg',
+        'node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.ttf',
+        'node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff',
+        'node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2'
+])
+        .pipe(gulp.dest("src/webfonts"))
+        .pipe(browserSync.stream());
+});
+
 // Static Server + watching scss/html files
 gulp.task('serve', gulp.series('sass', function() {
 
@@ -28,4 +60,4 @@ gulp.task('serve', gulp.series('sass', function() {
     gulp.watch("src/*.html").on('change', browserSync.reload);
 }));
 
-gulp.task('default', gulp.parallel('js','serve'));
+gulp.task('default', gulp.parallel('js', 'css', 'webfonts','serve'));
