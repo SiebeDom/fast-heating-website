@@ -14,9 +14,7 @@ $navbar-padding-y: 0.5rem;
 $hr-border-color: var(--secondary);
 $hr-margin-y: 0.75rem;
 
-$jumbotron-padding:                 0.25rem;
-$jumbotron-color:                   null;
-$jumbotron-bg:                      var(--gray-100);
+$jumbotron-padding:                 .5rem;
 
 $modal-header-padding-y:            .5rem;
 $modal-header-padding-x:            .5rem;
@@ -39,7 +37,6 @@ html {
   max-width: 960px;
 }
 
-/** Info area **/
 .jumbotron {
   background-color: gray("100");
 }
